@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+
+.Choose {
+  color: #9c9c9c;
+  font-family: Nunito;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  /* คำสั่งนี้ทำให้เนื้อหาอยู่ตรงกลางแนวนอน */
+  align-items: center;
+  /* คำสั่งนี้ทำให้เนื้อหาอยู่ตรงกลางแนวตั้ง */
+}
+
+.cardSelect {
+  border-radius: 20px;
+  border: 1px solid #e6ecf2;
+  background: #fff;
+  width: 430px;
+  height: 48px;
+  margin-left: 50%;
+}
+
+.selectOption {
+  color: #000;
+  font-family: Nunito;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-top: 10.44%;
+}
+.markerChoose{
+  width: 150%;
+  height: 30%;
+  border-radius: 20px;
+  border: 1px solid #e6ecf2;
+  background: #fff;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 5%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+
+}
+.markerChoose2 {
+  width: 70%;
+  height: 50%;
+  border-radius: 20px;
+  border: 1px solid #e6ecf2;
+  background: #fff;
+  position: relative;
+  top: 50%; /* ย้ายไปที่ 50% ของพื้นที่แนวตั้ง */
+  left: 50%; /* ย้ายไปที่ 50% ของพื้นที่แนวนอน */
+  transform: translate(-50%, -95%);
+  display: flex;
+  justify-content: center;
+  /* คำสั่งนี้ทำให้เนื้อหาอยู่ตรงกลางแนวนอน */
+  align-items: center;
+  margin-top: 2%;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  
+}
+
+
+.textMarker {
+  flex-shrink: 0;
+  color: #000;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.scrollbar {
+  border-radius: 20px;
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background: #fff;
+  overflow-y: scroll;
+}
+.scrollbar-night-fade {
+  scrollbar-color: #a18cd1 #f5f5f5;
+}
+
+.scrollbar-night-fade::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.scrollbar-night-fade::-webkit-scrollbar {
+  width: 12px;
+  
+  background-color: #f5f5f5;
+}
+
+.scrollbar-night-fade::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#a18cd1),
+    to(#fbc2eb)
+  );
+  background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.deleteButton {
+  border-radius: 20px;
+  background: #5d60ef;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.deleteButton2 {
+
+  border-radius: 20px;
+  background: #5d60ef;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.MapContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 57%; 
+    height: 72%;
+    border-radius: 20px;
+
+    margin-left: 2%;
+    margin-top: 4.3%;
+}

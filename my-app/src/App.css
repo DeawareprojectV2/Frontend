@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+.DashText {
+    color: #000;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin: 5%;
+}
+
+.img {
+    width: 62px;
+    height: 28.497px;
+}
+
+.Maps {
+    width: 60.97%;
+    height: 640px;
+    margin-left: 2.43%;
+    border-radius: 20px;
+    background: #FFF;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.groupchoose {
+    width: 31.94%;
+    height: 640px;
+    border-radius: 20px;
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.Graph {
+    margin-left: 2.43%;
+    width: 94.40%;
+    height: 700px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #E6ECF2;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Graph-Detail {
+    margin-left: 2.43%;
+    width: 68.68%;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #E6ECF2;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Senser {
+    width: 91%;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #E6ECF2;
+    background: #FFF;
+}
+
+.Headtext {
+    color: #000;
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Piezo {
+    
+    width: 207.792px;
+height: 65.673px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(247, 77, 2, 0.10) 0%, rgba(121, 89, 40, 0.10) 100%), #FFF;
+}
+
+.Rain {
+    
+    width: 207.792px;
+height: 65.673px;
+    border-radius: 20px;
+    background: linear-gradient(87deg, rgba(33, 172, 251, 0.10) 0%, rgba(35, 114, 159, 0.10) 100%), #FFFDFD;
+    
+   
+}
+.Landslide {
+   
+    width: 207.792px;
+    height: 65.673px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(64, 191, 73, 0.10) 0%, rgba(1, 103, 10, 0.10) 100%), #FEF2EE;
+    
+}
+
+.Pizotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FFA680 0%, #FF4D01 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Raintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #00A3FF 0%, #23729F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Landslidetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #00AE11 0%, #00670A 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(75%);
+    }
+}
+
+.Piezodetail {
+    width: 227.792px;
+    height: 65.673px;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.10) 0%, rgba(224, 224, 224, 0.10) 100%), #FFF;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.04));
+    border-radius: 20px;
+    animation-name: slide-out;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.slider-open {
+    animation-name: none;
+}
+
+.slideall {
+    margin-left: 18%;
+   
+}
+
+
+
+.buttondetailtext {
+    color: #000;
+    font-family: Nunito;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.scrollbar {
+    border-radius: 20px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #fff;
+    overflow-y: scroll;
+   
+  }
+.scrollbar-night-fade {
+    scrollbar-color: #a18cd1 #f5f5f5;
+  }
+  
+  .scrollbar-night-fade::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .scrollbar-night-fade::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f5f5f5;
+  }
+  
+  .scrollbar-night-fade::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#a18cd1),
+      to(#fbc2eb)
+    );
+    background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  }

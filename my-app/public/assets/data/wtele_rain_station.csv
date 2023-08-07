@@ -1,0 +1,22 @@
+station_id,code,name_eng,name_th,latitude,longitude
+1,RTU#1,Zone A4.1,พื้นที่ A4.1,18.32723617553711,99.73380279541016
+2,RTU#2,Zone WW-C1,พื้นที่ WW-C1,18.33734893798828,99.71148681640625
+3,RTU#3,Zone SW,พื้นที่ SW,18.31000518798828,99.70806884765625
+4,RTU#4,Zone SE,พื้นที่ SE,18.293489456176758,99.72679138183594
+5,RTU#5,Zone NW Dump,พื้นที่ NW Dump,18.34671401977539,99.69539642333984
+6,MM01,Begining of Main Diversion Canal,ต้นคลองผันน้ำหลัก,18.367422103881836,99.74015045166016
+7,MM02,End of Huai Luang Canal,ปลายคลองห้วยหลวง,18.37127113342285,99.73760223388672
+8,MM03,End of Main Diversion Canal,ปลายคลองผันน้ำหลัก,18.30030059814453,99.70024871826172
+9,MM04,Hang Hoong Bridge,สะพานหางฮุง,18.288522720336914,99.71685791015625
+10,MM05,North Settling Pond,อ่างตกตะกอน N,18.384920120239258,99.73049926757812
+11,MM06,North-East Settling Pond,อ่างตกตะกอน NE,18.367502212524414,99.7488784790039
+12,MM07,South-West Settling Pond,อ่างตกตะกอน SW,18.321338653564453,99.68790435791016
+13,MM08,Huai Sai Settling Pond,อ่างตกตะกอนห้วยทราย,18.298946380615234,99.70738983154297
+14,MM09,Restoration Pond,อ่างฟื้นฟู,18.302270889282227,99.74079895019531
+15,MP01,Mae Chang Dam,เขื่อนแม่จาง,,
+16,MP02,Mae Kham Dam,เขื่อนแม่ขาม,,
+17,MP03,Tha Si Weir,ฝายท่าสี,,
+18,MP04,Huai Ped Settling Pond,อ่างตกตะกอนห้วยเป็ด,,
+19,MS01,Maemoh Mine Master Station,สถานีหลักเหมืองแม่เมาะ,,
+20,MS02,WRMD Master Station,กจน-พ. นนทบุรี,,
+21,MS03,CPSD Master Station,สถานีหลัก อรค.,,

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect} from "react";
 import * as echarts from "echarts";
-import axios from "axios";
 const upColor = "#ec0000";
 const upBorderColor = "#8A0000";
 const downColor = "#00da3c";
@@ -162,7 +161,6 @@ const Graph = ({ Graphdatas, msiButton, piezoButton, rainButton,selectedMarkers,
 
       yAxis: [
         {
-         type: "value",
           min: minMsi,
           max: maxMsi, 
           type: "log",
@@ -170,8 +168,8 @@ const Graph = ({ Graphdatas, msiButton, piezoButton, rainButton,selectedMarkers,
         },
         {
 
-          min: Math.max(...piezoData)-10,
-          max:Math.max(...piezoData)+10, // กำหนดค่าขั้นต่ำในสเกลเลขลอการิทึม
+          min: (Math.max(...piezoData)-10).toFixed(2),
+          max:(Math.max(...piezoData)+10).toFixed(2), // กำหนดค่าขั้นต่ำในสเกลเลขลอการิทึม
           type: "log",
           
         },

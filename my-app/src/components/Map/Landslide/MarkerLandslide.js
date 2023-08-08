@@ -182,7 +182,7 @@ const MarkerLandslide = ({ landslideData1 ,data, Zoom, handleMarkerClick, select
             <div>
               <h6>Marker Info</h6>
               <p>type: {item.type}</p>
-              <p>device_id: {item.device_id}</p>
+              <p>device_id: Lansdslide{item.device_id.slice(-2)}</p>
               <p>altitude: {item.altitude}</p>
             </div>
           </Tooltip>

@@ -29,7 +29,7 @@ const GraphDetail = ({ selectedMarkers }) => {
             return (
               <TableRow key={index}>
                 <TableCell>-</TableCell>
-                <TableCell align="right">{item.device_id}</TableCell>
+                <TableCell align="right">Lansdslide{item.device_id.slice(-2)}</TableCell>
                 <TableCell align="right">{item.type}</TableCell>
                 <TableCell align="right">{item.timestamp.split(' ')[0]}</TableCell>
                 <TableCell align="right">{item.timestamp.split(' ')[1]}</TableCell>
@@ -51,7 +51,7 @@ const GraphDetail = ({ selectedMarkers }) => {
             return (
               <TableRow key={index}>
                 <TableCell>-</TableCell>
-                <TableCell align="right">{item.device_id}</TableCell>
+                <TableCell align="right">WTG{item.device_id.slice(-2)}</TableCell>
                 <TableCell align="right">{item.type}</TableCell>
                 <TableCell align="right">{item.timestamp.split(' ')[0]}</TableCell>
                 <TableCell align="right">{item.timestamp.split(' ')[1]}</TableCell>

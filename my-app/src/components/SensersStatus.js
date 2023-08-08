@@ -44,6 +44,9 @@ const SensersStatus = ({ landslideData1, wtgData }) => {
   const onlineSensorsWTG = allSensorWTG.filter(sensor => wtgData.some(item => item.device_id === sensor.device_id));
   const offlineSensorsWTG = allSensorWTG.filter(sensor => !wtgData.some(item => item.device_id === sensor.device_id));
 
+  console.log('onlineWTG', onlineSensorsWTG);
+  console.log('offlineWTG', offlineSensorsWTG);
+
   return (
     <TableContainer component={Paper}>
       <Table>
@@ -56,7 +59,7 @@ const SensersStatus = ({ landslideData1, wtgData }) => {
         <TableBody>
           {offlineSensorsLS.map((item, index) => (
             <TableRow key={index}>
-              <TableCell>{item.device_id} LS</TableCell>
+              <TableCell>Lansdslide{item.device_id.slice(-2)}</TableCell>
               <TableCell>
                 Offline
                 <FiberManualRecordIcon style={{ color: 'red' , fontSize: 15 }}></FiberManualRecordIcon>
@@ -65,7 +68,7 @@ const SensersStatus = ({ landslideData1, wtgData }) => {
           ))}
           {offlineSensorsWTG.map((item, index) => (
             <TableRow key={index}>
-              <TableCell>{item.device_id} WTG</TableCell>
+              <TableCell>WTG{item.device_id.slice(-3)}</TableCell>
               <TableCell>
                 Offline
                 <FiberManualRecordIcon style={{ color: 'red' , fontSize: 15 }}></FiberManualRecordIcon>
@@ -74,7 +77,7 @@ const SensersStatus = ({ landslideData1, wtgData }) => {
           ))}
           {onlineSensorsLS.map((item, index) => (
             <TableRow key={index}>
-              <TableCell>{item.device_id} LS</TableCell>
+              <TableCell>Lansdslide{item.device_id.slice(-2)}</TableCell>
               <TableCell>
                 Online
                 <FiberManualRecordIcon style={{ color: 'lightgreen', fontSize: 15  }}></FiberManualRecordIcon>
@@ -84,7 +87,7 @@ const SensersStatus = ({ landslideData1, wtgData }) => {
           
           {onlineSensorsWTG.map((item, index) => (
             <TableRow key={index}>
-              <TableCell>{item.device_id} WTG</TableCell>
+              <TableCell>WTG{item.device_id.slice(-2)}</TableCell>
               <TableCell>
                 Online
                 <FiberManualRecordIcon style={{ color: 'lightgreen', fontSize: 15 }}></FiberManualRecordIcon>

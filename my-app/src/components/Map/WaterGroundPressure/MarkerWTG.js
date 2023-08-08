@@ -31,7 +31,7 @@ const MarkerWTG = ({ data, handleMarkerClick, selectedMarkers }) => {
                     <div>
                         <h6>Marker Info</h6>
                         <p>type: {item.type}</p>
-                        <p>device_id: {item.device_id}</p>
+                        <p>device_id: WTG{item.device_id.slice(-2)}</p>
                         <p>kpa: {item.kpa}</p>
                     </div>
                 </Tooltip>

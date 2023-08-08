@@ -164,7 +164,7 @@ const Map = ({ landslideData, landslideData1, rainfallData, wtgData, selectedMar
                       <div key={index} className='markerChoose'  style={{height:'300px'}}>
                         <div className='textMarker'>
                           <h5 style={{marginLeft:'-50px'}}>{marker.type}</h5>
-                          <p>Device_id {marker.device_id}</p>
+                          <p>Device_id Lansdslide{marker.device_id.slice(-2)}</p>
                           <p style={{marginTop:'5px'}}>mine_n: <span style={{color:'#43D100'}}>{marker.mine_n}</span></p>
                           <p>mine_e: <span style={{color:'#F00'}}>{marker.mine_e}</span></p>
                           <p>Latitude: {marker.latitude}</p>
@@ -197,7 +197,7 @@ const Map = ({ landslideData, landslideData1, rainfallData, wtgData, selectedMar
                       <div key={index} className='markerChoose'>
                         <div className='textMarker'>
                         <h5 style={{marginLeft:'-50px'}}>{marker.type}</h5>
-                          <p>device_id: {marker.device_id}</p>
+                          <p>device_id: WTG{marker.device_id.slice(-2)}</p>
                           <p>kpa: <span style={{color:'#43D100'}}>{parseFloat(marker.kpa).toFixed(4)}</span></p>
                           <button className='deleteButton' onClick={() => handleDeleteMarker(marker.device_id, marker.type)}>
                             Delete
@@ -222,7 +222,7 @@ const Map = ({ landslideData, landslideData1, rainfallData, wtgData, selectedMar
                       <div key={index} className='markerChoose2'>
                         <div className='textMarker'>
                         <h5 style={{marginLeft:'-50px'}}> {marker.type}</h5>
-                        <p>Device_id {marker.device_id}</p>
+                        <p>Device_id Lansdslide{marker.device_id.slice(-2)}</p>
                           <p style={{marginTop:'5px'}}>mine_n: <span style={{color:'#43D100'}}>{marker.mine_n}</span></p>
                           <p>mine_e: <span style={{color:'#F00'}}>{marker.mine_e}</span></p>
                           <p>Latitude: {marker.latitude}</p>
@@ -256,7 +256,7 @@ const Map = ({ landslideData, landslideData1, rainfallData, wtgData, selectedMar
                       <div key={index} className='markerChoose2'>
                         <div className='textMarker'>
                         <h5 style={{marginLeft:'-50px'}}>{marker.type}</h5>
-                          <p>device_id: {marker.device_id}</p>
+                          <p>device_id: WTG{marker.device_id.slice(-2)}</p>
                           <p>kpa: <span style={{color:'#43D100'}}>{parseFloat(marker.kpa).toFixed(4)}</span></p>
                           <button className='deleteButton2' onClick={() => handleDeleteMarker(marker.device_id, marker.type)}>
                             Delete
